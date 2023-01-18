@@ -5,7 +5,7 @@
 
 <br>
 
-### 📎[Acesse aqui](https://nicoletsingas.github.io/)
+### 📎[Acesse aqui](https://nicoletsingas.github.io/Product-preview-card/)
 
 ![preview](./assets/preview.png)
 
