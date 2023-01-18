@@ -1,0 +1,101 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorMain: #3c8067;
+    --colorBG: #f2ebe3;
+    --colorText: #1c232b;
+}
+
+body{
+    background-color: var(--colorBG);
+    height: 100vh;
+    padding: 0 20px;
+    overflow: hidden;
+} 
+
+main{
+    position: relative;
+    height: 100%;
+    font-family:'Montserrat', sans-serif;
+    color: var(--colorText);
+    font-size: 14px;
+}
+
+section#product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #FFF;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#img-mobile{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-desktop{
+    display: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+div#text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#perfume{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1, #price{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5em;
+}
+
+#price{
+    color: var(--colorMain);
+}
+
+#old-price{
+    text-decoration: line-through;
+}
+
+#product-price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button{
+    background-color: var(--colorMain);
+    color: #FFF;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #2d5f4d;
+    cursor: pointer;
+}
+
+
+
+

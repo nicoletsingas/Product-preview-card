@@ -1,0 +1,40 @@
+/* RESPONSIVE */
+
+/* mobile -390px */
+
+@media screen and (max-width: 390px) {
+    body{
+        padding: 10px;
+    }
+
+    section#product{
+        width: 100%;
+    }
+
+    #picture img{
+        width: 100%;
+    }
+}
+
+
+/* Tablet, Desktop, TV */
+
+@media screen and (min-width: 600px) {
+    #img-mobile{
+        display: none;
+    }
+
+    #img-desktop{
+        display: block;
+    }
+
+    section#product{
+        display: flex;
+        max-width: 580px;
+    }
+
+    #picture, #text{
+        width: 50%;
+    }
+
+}
